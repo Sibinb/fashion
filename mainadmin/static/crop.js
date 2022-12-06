@@ -20,7 +20,7 @@ function man(id){
     confirmBtn.classList.remove("confirm_cls");
 
     $image.cropper({
-        aspectRatio: 30 /40,
+        aspectRatio: 750 /1000,
         crop: function(event) {
             console.log(event.detail.x);
             console.log(event.detail.y);

@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'malefashion.wsgi.application'
 DATABASES = {
 	'default': {
 		'ENGINE': 'django.db.backends.mysql',
-		'NAME': 'fashion',
+		'NAME': 'demo',
 		'USER': 'root',
 		'PASSWORD': 'sibin',
 		'HOST':'127.0.0.1',
